@@ -11,4 +11,5 @@ public class MethodExample2 {
         // 여기서 int는 return되는 값의 타입을 나타낸다.
         return n1 + n2; // retrn 값을 고정시키면 ex)10, 위에 어떤식을 적어도 합은 10으로 고정된다.
     } //return이 좋은 이유는 다시 값이 반환되기 때문에 2차가공이 가능하다.
+    //주의 할 점 : 타입 에러 안터지게 조심할 것..int면 int, double이면 double
 }
