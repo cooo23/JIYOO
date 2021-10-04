@@ -13,3 +13,5 @@ public class MethodExample2 {
     } //return이 좋은 이유는 다시 값이 반환되기 때문에 2차가공이 가능하다.
     //주의 할 점 : 타입 에러 안터지게 조심할 것..int면 int, double이면 double
 }
+
+//비보이드형은 int result = sum(10, 20);작성해도 에러안뜸, 보이드형은 뜨는듯...
