@@ -1,0 +1,11 @@
+
+
+                같은클래스  |  같은패키지   | 다른패키지
+private   :         O     |      X      |    X
+default   :         O     |      O      |    X
+protected :         O     |      O      |상속만 접근가능
+public    :         O     |      O      |    O
+
+
+//TvTest 다시 다운받기
+calcTest 에러 뜨는 이유 확인
