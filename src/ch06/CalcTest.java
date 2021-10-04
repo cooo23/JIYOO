@@ -14,7 +14,8 @@ public class CalcTest {
         Calc calc = new Calc();
         calc.n1 = 10;
         calc.n2 = 20;
-        int result2 = Calc.sum();
+
+        int result2 = calc.sum();
         System.out.println("instance sum : " + result2);
 
         /*int result2 = Calc에 있는 sum() 호출해서 결과물 받은 다음에
