@@ -3,7 +3,7 @@ package ch06;
 public class CarTest {
     public static void main(String[] args) {
         String car2 = new String("");
-        Car car = new Car(); //new 없이 객체화 불가능 new 뒤에 객체화하고 싶은 클래스 안에 있는 메소드?
+        Car car = new Car(); //new 라는 클래스 없이 객체화 불가능 new 뒤에 객체화하고 싶은 클래스 안에 있는 메소드
 //    클래스의 변수 = new 클래스
         car.brand = "현대";
         car.nm = "소나타";
