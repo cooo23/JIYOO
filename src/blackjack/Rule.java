@@ -24,30 +24,11 @@ public class Rule {
         final int STAND_SCORE = 21;
         if ((dealerScore == gamerScore) || (dealerScore>STAND_SCORE && gamerScore>STAND_SCORE)) {
             System.out.println("비김");
-        } else if ((dealerScore > gamerScore) || (gamerScore>=STAND_SCORE && dealerScore<=STAND_SCORE)) {
+        } else if ((gamerScore > STAND_SCORE) || (dealerScore<=STAND_SCORE && dealerScore > gamerScore)) {
             System.out.println("딜러승");
-        } else if ((dealerScore < gamerScore) || (gamerScore<=STAND_SCORE && dealerScore>=STAND_SCORE)) {
-            System.out.println("게이머승");
         } else {
-            System.out.println("재경기");
-        } // 여기부분은 쌤 코드 다시보고 정리하기
-
-
-        /*
-        if((dealerScore >= STAND_SCORE) && (gamerScore >= STAND_SCORE)){
-            System.out.println("비김");
-        } else if((dealerScore>= STAND_SCORE) && (gamerScore<STAND_SCORE)){
             System.out.println("게이머승");
-        } else if ((gamerScore>= STAND_SCORE) && (dealerScore<STAND_SCORE)) {
-            System.out.println("딜러승");
-        } else if (dealerScore < gamerScore) {
-            System.out.println("게이머승");
-        } else if (dealerScore > gamerScore) {
-            System.out.println("딜러승");
-        } else{
-            System.out.println("재경기");
         }
-         */
     }
 
 
