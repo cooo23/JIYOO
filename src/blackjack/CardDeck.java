@@ -39,7 +39,7 @@ public class CardDeck {
                 //cards.add(new Card(patters[i], denomination); 한줄로도 가능
             }//내부 for문
         }//전체 for문 종료
-    }// 이거 시험문제 나옴 외우자;;;init()요 항목...
+    }// 이거 시험문제 나옴 외우자;;;init()요 항목... 여기서 ArrayList();여기에 안넣고 그냥 리스트에 넣는다.
 
 
     public Card getCard() {//파라미터값을 아무것도 안넣는다는것은 뭘까?
